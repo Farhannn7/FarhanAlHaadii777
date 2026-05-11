@@ -7,5 +7,5 @@ $Prodi = $_POST['Prodi'];
 
 mysqli_query($koneksi, "UPDATE mahasiswa SET Nama='$Nama', Prodi='$Prodi' WHERE id='$id'");
 
-header("location:index.php");
+header("location:index.html");
 ?>
