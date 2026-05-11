@@ -1,5 +1,5 @@
 <?php
-include 'koneksi.html';
+include 'koneksi.php';
 
 $id = $_GET['id'];
 $data = mysqli_query($koneksi, "SELECT * FROM mahasiswa WHERE id='$id'");
