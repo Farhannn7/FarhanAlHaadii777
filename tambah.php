@@ -6,5 +6,5 @@ $Prodi = $_POST['Prodi'];
 
 mysqli_query($koneksi, "INSERT INTO mahasiswa VALUES ('', '$Nama', '$Prodi')");
 
-header("location:index.php");
+header("location:index.html");
 ?>
